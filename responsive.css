@@ -1,0 +1,9 @@
+
+@media all and (max-width:768px){
+		.main-menu ul{
+		display:none;
+	}
+	.hidden-menu{
+		display: block;
+	}
+}

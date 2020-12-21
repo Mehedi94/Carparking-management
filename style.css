@@ -1,0 +1,451 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+    margin:0;
+  line-height: 1.3em;
+  font-family: tahoma, arial;
+  line-height: 24px;
+  background: #ffffff;
+  color: #000000;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+h2{
+  font-size: 53px;
+  text-transform: uppercase;
+  color:#FFFFFF;
+  letter-spacing: 1.9px;
+}
+h3{
+  color:#FFFFFF;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2.5;
+
+}
+h4{
+  color:#000000;
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 2.5;
+}
+ span{
+  color:#FD8A37;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: normal;
+}
+p{
+  font-size: 15px;
+  color:#C3BFBE;
+  font-family: "raleway light"
+}
+.image-noise {
+    width: 100%;
+    background-image: url(images/noise.png);
+    padding: 40px 0;
+    z-index: 0;
+}
+
+/*...HEADER AREA...*/
+
+.header-area{
+  width:100%;
+  background-color:#000000;
+  overflow: hidden;
+}
+.logo-area a:hover{
+  text-decoration: none;
+}
+.header-area .logo-area  h2 {
+  font-size:30px;
+  color:#FFFFFF;
+}
+.logo-area h2 a{
+  color:#FFFFFF;
+}
+.main-menu ul li a{
+  font-family: tahoma;
+  text-transform: capitalize;
+  color:#C5C5C5;
+  font-size: 18px;
+}
+.main-menu ul li:hover a{
+  color:#FD8A37;
+  background-color: transparent;
+
+}
+.hidden-menu{
+  display: none;
+  float:right;
+}
+.hidden-menu span{
+  color: #FFF;
+}
+
+
+/*...3. BANNER AREA ...*/
+.banner-area{
+  width:100%;
+  overflow: hidden;
+  background-image: url("images/banner.jpeg");
+  background-size: 100% 100%;
+  /*padding: 20px 0;*/
+}
+.border-area{
+  width:40%;
+  display: block;
+  overflow: hidden;
+  padding: 20px 0;
+}
+.border-area hr{
+  width:50px;
+  margin-left:0;
+}
+.download-area{
+  margin-top:50px;
+  margin-bottom: 70px;
+}
+.download-area a:hover,
+.download-area a:active,
+.download-area a:visited,
+.download-area a:link{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+ .custom-btn {
+  background-color:transparent;
+  border: 2px solid #FFFFFF;
+  text-transform: capitalize;
+  color:#FFFFFF;
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: 1s;
+}
+.custom-btn:hover{
+  text-decoration: none;
+  background-color: #FF9C51;
+  color:#FFFFFF;
+  /*font-weight: bold;*/
+}
+.trial{
+  background-color:#FFFFFF;
+  margin:60px 0;
+  width:90%;
+  overflow: hidden;
+
+}
+.trial .trial-text{
+  background-color: #F5F5F5;
+  padding: 10px 10px;
+}
+.trial form input[type="text"],
+.trial form input[type="password"],
+.trial form input[type="email"]{
+  border:0;
+  display: block;
+  margin:20px 0;
+  color:#000000;
+  font-size:17px;
+}
+.trial form input[type=submit]{
+  width:100%;
+  background-color:#FF9C51;
+  color:#FFFFFF;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px 0px;
+  border:1px solid #FF9C51;
+}
+.trial form input[type=submit]:hover{
+  background-color: transparent;
+  color:#FF9C51;
+  transition:1s;
+}
+
+/*... 4. SOCIAL AREA...*/
+.social-area{
+  width:100%;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  padding: 10px 0;
+  border-bottom: 2px solid #B7B7B7;
+}
+.social-icons ul li a{
+  display: block;
+  height:84px;
+  width:84px;
+  background-image: url("images/stripe.jpg");
+  transition: 1s;
+}
+.social-icons ul .facebook a{
+  background-position: 0 0;
+
+}
+.social-icons ul .facebook a:hover{
+  background-position: 0 -84px;
+
+}
+.social-icons ul .twitter a{
+  background-position: 252px 0;
+}
+.social-icons ul .twitter a:hover{
+  background-position: 252px -84px;
+}
+.social-icons ul .google-plus a{
+  background-position: -252px 0;
+}
+.social-icons ul .google-plus a:hover{
+  background-position: -252px -84px;
+}
+.social-icons ul .padlet a{
+  background-position: -420px 0;
+}
+.social-icons ul .padlet a:hover{
+  background-position: -420px -84px;
+}
+.social-icons ul .youtube a{
+  background-position: 84px 0;
+}
+.social-icons ul .youtube a:hover{
+  background-position: 84px -84px;
+}
+.social-icons ul .linkdin a{
+  background-position: -336px 0;
+}
+.social-icons ul .linkdin a:hover{
+  background-position: -336px -84px;
+}
+.social-icons ul .network a{
+  background-position: 420px 0;
+}
+.social-icons ul .network a:hover{
+  background-position: 420px -84px;
+}
+.social-area h3{
+  color:#000000;
+  text-transform: capitalize;
+  letter-spacing: 1.9px;
+}
+.social-area p{
+  color:#ABABAB;
+  font-weight: bold;
+}
+
+/*...... 5. TAB AREA  .....*/
+
+/*.... PICTURE AREA ....*/
+.picture-area{
+  width:100%;
+  overflow: hidden;
+  padding: 50px 0;
+}
+.border-area-orange{
+  width:40%;
+  display: block;
+  overflow: hidden;
+  padding: 20px 0;
+}
+.border-area-orange hr{
+  border-bottom:1px solid #FD8A37;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  width:50px;
+  margin-left:0;
+}
+.picture-area img{
+  width:100%;
+  height: auto;
+}
+.picture-area span{
+  padding: 10px 10px;
+  height:40px;
+  width:40px;
+  border-radius:50%;
+  border:1px solid #FD8A37;
+  text-align: center;
+  margin-right:10px;
+}
+
+/*... 7. DESCRIPTION AREA ...*/
+.description-area{
+  width:100%;
+  background-color: #F5F5F5;
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+/*... 8. CUSTOMER AREA ....*/
+.customer-area{
+  width:100%;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  padding: 50px 0;
+}
+.customer-area h2{
+  color:#000000;
+  font-size: 34px;
+}
+.center-border hr{
+  border-bottom: 1px solid #FD8A37;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  width:50px
+
+}
+.text-area{
+  margin:50px 0;
+}
+
+/*... 9.STYLISH AREA ... */
+.stylish-area{
+  width:100%;
+  background-image: url("images/stylish-area.png");
+  background-size: 100% 100%;
+  padding: 50px 0;
+  overflow: hidden;
+
+}
+.stylish-area hr{
+  width:50px;
+}
+
+/*... 10.CONTACT AREA ...*/
+.contact-area,
+.custom-box{
+  width:100%;
+  background-color: #FFFFFF;
+  padding: 50px 0;
+}
+.contact-area h3,
+.custom-box h3{
+  color:#000000;
+}
+.contact-area p,
+.custom-box p{
+  margin: 30px 0;
+}
+.input-area-left input[type="text"],
+.input-area-left input[type="email"],
+.input-area-left input[type="password"],
+.input-area-left input[type="number"]{
+  width:100%;
+  padding: 25px 10px;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:1px solid #D6D6D6;
+}
+.input-area-left input[type="text"]:focus,
+.input-area-left input[type="email"]:focus,
+.input-area-left input[type="number"]:focus{
+  border-bottom: 1px solid #DEEEFB;
+  background-color: #F5F5F5;
+}
+.input-area-right input[type="text"],
+.custom-btn-area input[type="password"]{
+  padding: 50px 10px;
+}
+.input-area-right input[type="submit"],
+.custom-btn-area input[type="submit"]{
+  margin:50px 0;
+  padding: 10px 20px;
+  font-size: 15px;
+  color:#FFFFFF;
+  background-color: #FD8A37;
+  border-radius: 5px;
+  border:1px solid #FD8A37;
+}
+
+/*.... 11.FOOTER AREA ....*/
+.footer-area{
+  width:100%;
+  overflow: hidden;
+  background-color: #000000;
+  padding: 40px 0;
+}
+.footer-menu ul li a i{
+  font-size: 15px;
+  color:#FFFFFF;
+  padding: 10px 10px;
+}
+.footer-menu ul li a:hover i{
+  transform: rotate(360deg);
+  transition: 1s;
+}
+.copyright-area p{
+  margin:10px 0;
+  text-transform: capitalize;
+
+}
+
+.error h6{
+  color:#c0392b;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+/*.... user dashboard area ....*/
+
+.dashboard-sidebar{
+  width:30%;
+  float:left;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.dashboard-area{
+  width:70%;
+  overflow: hidden;
+  margin-top: 50px;
+  float: right;
+}
+.dashboard-sidebar ul{
+  text-align: center;
+  list-style: none;
+}
+
+.dashboard-sidebar ul li{
+  background-color: #2980b9;
+  text-align: center;
+  padding: 5px 5px;
+  border:1px solid #fff;
+}
+.dashboard-sidebar ul li a{
+  color:#fff;
+  text-transform: capitalize;
+}
+
+.dashboard-area .profile-picture img{
+   width:150px;
+   height: auto;
+}
+.profile-description h2,
+.profile-description h3,
+.profile-description h4{
+  color:#0000A0;
+  text-transform: capitalize;
+}
+.user-area{
+  padding: 40px 0;
+}
+/*... blog area ...*/
+.blog-area{
+  width:100%;
+  overflow: hidden;
+}
+.blog-area  h1,
+.blog-area  h2,
+.blog-area  h3,
+.blog-area  h4,
+.blog-area  h5,
+.blog-area  h6,
+.blog-area p {
+  color: #000000;
+}
+.blog-area a{
+  text-decoration: underline;
+}
